@@ -2,127 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitcoin Live News - Real-Time Updates</title>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <title>BITCOIN LIVE NEWS 90s</title>
+    <link rel="icon" type="image/x-icon" href="bitcoin-favicon.ico">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
         body {
-            background: #f0f2f5;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #1a1a1a;
-            color: #fff;
-            padding: 2rem;
+            background-color: #000000;
+            color: #FFD700;
+            font-family: "Courier New", monospace;
             text-align: center;
+            margin: 0;
         }
-
+        h1 {
+            font-size: 50px;
+            color: #FF4500;
+            text-shadow: 3px 3px #FFD700;
+            padding: 20px;
+        }
+        h2 {
+            color: #00FF00;
+            font-size: 30px;
+            text-shadow: 2px 2px #FFD700;
+        }
+        p {
+            font-size: 18px;
+        }
         nav {
-            background: #fff;
-            padding: 1rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background-color: #1A1A1A;
+            padding: 10px;
         }
-
         nav ul {
             list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
         }
-
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
         nav a {
-            text-decoration: none;
-            color: #f7931a;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #e68a00;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 3rem 2rem;
-            background: linear-gradient(45deg, #f7931a, #e68a00);
-            color: #fff;
-        }
-
-        .news-container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-
-        .news-item {
-            background: #fff;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .news-item h3 {
-            color: #f7931a;
-            margin-bottom: 0.5rem;
-        }
-
-        .news-item p {
-            margin-bottom: 0.5rem;
-        }
-
-        .news-item .timestamp {
-            color: #777;
-            font-size: 0.9rem;
-        }
-
-        .news-item a {
-            color: #f7931a;
-            text-decoration: none;
-        }
-
-        .news-item a:hover {
+            color: #FF4500;
             text-decoration: underline;
         }
-
+        nav a:hover {
+            color: #00FF00;
+        }
+        .hero {
+            background-color: #FF4500;
+            color: #FFD700;
+            padding: 20px;
+        }
+        .news-container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .news-item {
+            background-color: #1A1A1A;
+            border: 3px double #FFD700;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .news-item h3 {
+            color: #FF4500;
+            font-size: 20px;
+        }
+        .news-item p {
+            color: #FFFFFF Secondary {
+            color: #FFFFFF;
+        }
+        .news-item a {
+            color: #FF4500;
+            text-decoration: underline;
+        }
+        .news-item a:hover {
+            color: #00FF00;
+        }
+        .timestamp {
+            color: #00FF00;
+            font-size: 14px;
+        }
         footer {
-            text-align: center;
-            padding: 1rem;
-            background: #1a1a1a;
-            color: #fff;
+            background-color: #1A1A1A;
+            padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
-
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .hero {
-                padding: 2rem 1rem;
-            }
-
-            .news-container {
-                padding: 0 1rem;
-            }
+        blink {
+            color: #00FF00;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bitcoin Live News</h1>
-        <p>Real-Time Updates Powered by CryptoCompare</p>
+        <h1>BITCOIN LIVE NEWS</h1>
+        <p><blink>Real-Time Crypto Updates</blink></p>
     </header>
 
     <nav>
@@ -135,32 +107,31 @@
     </nav>
 
     <section class="hero">
-        <h2>Latest Bitcoin News</h2>
-        <p>Stay informed with real-time updates on Bitcoin from trusted sources.</p>
+        <h2>LATEST BITCOIN NEWS</h2>
+        <p>Stay Wired with Crypto Vibes!</p>
     </section>
 
     <section class="news-container" id="news-feed">
-        <!-- Nieuwsitems worden hier dynamisch toegevoegd -->
-        <p>Loading Bitcoin news...</p>
+        <p>Loading Bitcoin News...</p>
     </section>
 
     <footer>
-        <p>© 2025 Bitcoin Live News - Powered by CryptoCompare API</p>
+        <p>© 2025 Bitcoin Live News - Powered by CryptoCompare</p>
     </footer>
+
+    <marquee>*** HODL THE FUTURE - BITCOIN TO THE MOON ***</marquee>
 
     <script>
         const newsFeed = document.getElementById('news-feed');
-        const apiKey = 'b0d6ebb5ae4b1f8579ce4f89669d534f166eddd4ac41dbdb6d38690e08bc674c'; // Registreer bij CryptoCompare voor een gratis sleutel
+        const apiKey = 'b0d6ebb5ae4b1f8579ce4f89669d534f166eddd4ac41dbdb6d38690e08bc674c';
 
-        // Functie om nieuws op te halen van CryptoCompare API
         async function fetchBitcoinNews() {
             try {
                 const response = await fetch(`https://min-api.cryptocompare.com/data/v2/news/?lang=EN&categories=Bitcoin&api_key=${apiKey}`);
                 const data = await response.json();
                 
                 if (data.Data && data.Data.length > 0) {
-                    newsFeed.innerHTML = ''; // Leeg de container
-                    // Beperk tot de 10 meest recente berichten
+                    newsFeed.innerHTML = '';
                     data.Data.slice(0, 10).forEach(item => {
                         const newsDiv = document.createElement('div');
                         newsDiv.classList.add('news-item');
@@ -172,18 +143,15 @@
                         newsFeed.appendChild(newsDiv);
                     });
                 } else {
-                    newsFeed.innerHTML = '<p>No news available at the moment.</p>';
+                    newsFeed.innerHTML = '<p>No news available, dude!</p>';
                 }
             } catch (error) {
-                newsFeed.innerHTML = '<p>Error loading news. Please try again later.</p>';
+                newsFeed.innerHTML = '<p>404 - News not found!</p>';
                 console.error('Error fetching news:', error);
             }
         }
 
-        // Laad nieuws bij het openen van de pagina
         fetchBitcoinNews();
-
-        // Update elke 60 seconden
         setInterval(fetchBitcoinNews, 60000);
     </script>
 </body>
